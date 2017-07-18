@@ -1,0 +1,19 @@
+{
+  "name": "hi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "webpack index.js build/build.js",
+    "dev": "webpack -w index.js build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
+}
